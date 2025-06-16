@@ -41,7 +41,7 @@ model = whisper.load_model("large")  # или "small" / "medium" для боле
 ### 🚀 Запуск сервера
 
 ```bash
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 
 После запуска, сервер будет доступен по адресу:
